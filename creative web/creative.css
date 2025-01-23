@@ -1,0 +1,846 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+}
+.bg{
+    height: 600px;
+    color: white;
+    background-size: cover;
+    background-image: url('./image/carousel-1.jpg');
+}
+.logo{
+    font-size: 60px;
+    color: white;
+    padding-top: 2%;
+    margin-left: 5%;
+}
+span{
+    color: orange;
+}
+.bg-ul{
+    text-align: right;
+    margin-top: -3%;
+    margin-right: 8%;
+}
+.bg-ul li{
+    margin-right: 1%;
+    display: inline-block;
+}
+.bg-ul li a{
+    color: white;
+}
+.menu{
+    display: none;
+}
+select{
+    background: transparent;
+    border: none;
+    color: white;
+    margin-left: -18px;
+}
+.bg-p{
+    font-size: 25px;
+    margin-top: 15%;
+    margin-left: 25%;
+    margin-bottom: 1%;
+}
+.bg-h1{
+    margin-bottom: 2%;
+    margin-left: 25%;
+    font-size: 55px;
+}
+.bg-button{
+    margin-left: 25%;
+    font-size: 15px;
+    font-weight: 700px;
+    padding: 10px;
+    background-color: orange;
+    border-radius: 2px;   
+}
+
+
+
+.white{
+   width: 80%;
+   margin: 10% auto;
+  
+}
+.white .image{
+    width: 30%;
+}
+.white .image img{
+    width: 100%;
+}
+.who{
+   width: 50%;
+   margin-left: 40%;
+   margin-top: -30%;
+}
+.who span{
+    font-size: 11px;
+    font-weight: 600px;
+    padding: 4px;
+    color: white;
+    background-color: orange;   
+}
+.white .who h1{
+    margin: 10px 0;
+    font-size: 25px;
+}
+.white .who p{
+    margin: 20px 0;
+    color: grey;
+}
+.who a{
+    font-size: 15px;
+    font-weight: 700px;
+    padding: 10px;
+    color: black;
+    background-color: orange;
+    border-radius: 2px;  
+}
+
+
+
+.contact{
+    width: 80%;
+    margin: 15% auto;
+}
+
+.cont-ul .box{
+    width: 31%;
+    display: inline-block;
+    border: 2px solid rgb(233, 228, 228);
+    padding: 15px;
+    padding-left: 2%;
+    margin-left: 1%;
+    position: relative;
+}
+.cont-ul .box .fa-solid{
+    color: orange;
+    font-size: 25px;
+    margin-top: 1px;
+}
+.cont-ul .box .txt{
+    position: absolute;
+    left: 23%;
+    top: 25%;
+}
+.cont-ul .box .txt h4{
+    font-size: 15px;
+}
+.cont-ul .box .txt p{
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+
+
+.what{
+    width: 80%;
+    margin:-10% auto;
+    margin-bottom: 4%;
+  
+}
+.what .what-1{
+    width: 25%;
+    display: inline-block;
+  
+}
+.what-1 span{
+    background-color: orange;
+    color: white;
+    font-size: 12px;
+    padding: 3px;
+}
+.what .what-1 h2{
+    margin: 5% 0;
+}
+.what-1 p{
+    margin-bottom: 5%;
+}
+.what .what-1 button{
+    background-color: orange;
+    border: none;
+    color: black;
+    padding: 7px 10px;
+}
+.what .what-2{
+    width: 69%;
+    display: inline-block;
+    
+}
+.what .what-2 .box{
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 5%;
+    display: inline-block;
+    
+}
+.what .box li{
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: orange;
+}
+.what-2 .box p{
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.what-2 .box a{
+    color: orange;
+}
+
+
+.why{
+    width: 80%;
+    margin:2% auto;
+    margin-bottom: 4%;
+}
+.why .why-1{
+    width: 25%;
+    display: inline-block;
+}
+.why .why-1 .spam1{
+    background-color: orange;
+    color: white;
+    font-size: 12px;
+    padding: 3px;
+}
+.why .why-1 h2{
+    margin: 5% 0;
+}
+.why .why-1 p{
+    margin-bottom: 5%;
+}
+.why .why-1 button{
+    background-color: orange;
+    border: none;
+    color: black;
+    padding: 7px 10px;
+}
+.why .why-2{
+    width: 69%;
+    display: inline-block;
+}
+
+.why .why-2 .box{
+    width: 43%;
+    margin-top: 10%;
+    margin-left: 3%;
+    display: inline-block;
+    border: 1px solid rgb(230, 221, 221);
+    
+}
+.why .why-2 .box span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+.why .why-2 .box h4{
+    font-size: 18px;
+    margin-bottom: 5%;
+    margin-left: 20%;
+}
+
+
+.meet{
+    width: 80%;
+    margin:5% auto;
+    margin-bottom: 4%;
+}
+.meet .meet-1{
+    width: 20%;
+    display: inline-block;
+}
+.meet-1 span{
+    background-color: orange;
+    color: white;
+    font-size: 12px;
+    padding: 3px;
+}
+.meet-1 h2{
+    margin: 5% 0;
+}
+.meet-1 p{
+    margin-bottom: 5%;
+}
+.meet-1 button{
+    background-color: orange;
+    border: none;
+    color: black;
+    padding: 7px 10px;
+}
+
+.meet .meet-2{
+    width: 75%;
+    display: inline-block;
+}
+.meet .meet-2 .box{
+    width: 23%;
+    margin-top: 10%;
+    margin-left: 8%;
+    display: inline-block;
+    border: 1px solid rgb(230, 221, 221);
+    
+}
+.meet-2 .box img{
+   width: 100%;
+}
+.meet-2 .box h4{
+    padding-left: 20%;
+    padding-top: 5%;
+}
+.meet-2 .box p{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    font-size: 13px;
+}
+
+
+
+.basic{
+    width: 80%;
+    margin:5% auto;
+    margin-bottom: 4%;
+}
+.basic .basic-1{
+    width: 55%;
+    margin-top: 1%;
+    display: inline-block;
+}
+.basic .basic-1 .box{
+    width: 45%;
+    margin-top: 5%;
+    display: inline-block;
+    border: 1px solid rgb(230, 221, 221);
+}
+.basic .basic-1 .box .box1{
+    padding: 5% 0;
+    text-align: center;
+    background-color: orange;
+}
+.box .box1 h2 span{
+    font-size: 15px;
+    color: black;
+}
+.basic .basic-1 .box .box2{
+    padding: 5% 0;
+    text-align: center;
+}
+.basic .basic-1 .box .box2 p{
+   padding-top: 7%;
+}
+.basic .basic-1 .box .box2 button{
+    margin: 6% 0;
+    padding: 7px 10px;
+    background-color: orange;
+    border: none;
+    color: black;
+}
+
+.basic .basic-2{
+    width: 35%;
+    display: inline-block;
+}
+.basic-2 span{
+    background-color: orange;
+    color: white;
+    font-size: 12px;
+    padding: 3px;
+}
+.basic-2 h2{
+    margin: 5% 0;
+}
+.basic-2 h4{
+    margin: 3% 0;
+}
+.basic-2 button{
+    margin: 6% 0;
+    padding: 7px 10px;
+    background-color: orange;
+    border: none;
+    color: black;
+}
+
+
+
+.client{
+    width: 80%;
+    margin:5% auto;
+    margin-bottom: 4%;
+}
+.client .client-1{
+    width: 25%;
+   
+    display: inline-block;
+}
+.client .client-1 span{
+    background-color: orange;
+    color: white;
+    font-size: 12px;
+    padding: 3px;
+}
+.client .client-1 h2{
+    margin: 5% 0;
+}
+.client .client-1 p{
+    margin-bottom: 5%;
+}
+.client .client-1 button{
+    background-color: orange;
+    border: none;
+    color: black;
+    padding: 7px 10px;
+}
+.client .client-2{
+    width: 70%;
+    padding-left: 10%;
+    display: inline-block;
+}
+.client .client-2 .box1{
+    width: 46%;
+    margin-top: -10%;
+    margin-left: 3%;
+    display: inline-block;
+}
+.client-2 .box1 p{
+    width: 80%;
+    padding: 5%;
+    font-size: 14px;
+    color: grey;
+    border: 2px solid rgb(230, 221, 221);
+}
+.client-2 .box1 .box2{
+    margin: 5% 0;
+}
+.client-2 .box1 .box2 img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+.client-2 .box1 .box2 h6{
+    margin-top: -15%;
+    margin-left: 30%;
+}
+.client-2 .box1 .box2 span{
+    margin-top: -7%;
+    margin-left: 30%;   
+    font-size: 14px;
+    color: grey;
+}
+
+
+.blog{
+    width: 100%;
+    margin:5% auto;
+    margin-left: -10%;
+    margin-bottom: 4%;
+}
+.blog span{
+    background-color: orange;
+    color: white;
+    font-size: 12px;
+    padding: 3px;
+    margin-left: 55%;
+}
+.blog h2{
+    margin-left: 50%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.blog .blog-1{
+    width: 90%;
+    display: inline-block;
+    margin-left: 18%;
+}
+.blog .blog-1 .box1{
+    width: 40%;
+    margin-left: 2%;
+    display: inline-block;
+    border: 1px solid rgb(230, 221, 221);
+}
+.blog-1 .box1 .img1{
+    width: 100%;
+}
+.blog-1 .box1 .img2{
+    width: 10%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 50%;
+}
+.blog .blog-1 .box1 span{
+    color: grey;
+    background-color: white;
+    margin-left: 3%;
+}
+.blog-1 .box1 p{
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+
+.footer{
+    width: 100%;
+    display: flex;
+    background-color:rgb(33, 36, 36);
+}
+.footer .box{
+    width: 100%;
+    display: flex;
+    margin: 3% 0;
+    justify-content: space-between;
+    
+}
+.footer .box .box1{
+    width: 23%;
+    margin-left: 8%;
+}
+.footer .f-last{
+    display: flex;
+    width: 70%;
+}
+.footer .box .cmn-box{
+    width: 20%;
+}
+.footer .box .box2{
+    width: 40%;
+}
+.footer .box .box1 .logo{
+    font-size: 40px;
+    margin-bottom: 5%;
+}
+.footer .box .box1 p{
+    width: 50%;
+    color: white;
+    font-size: 13px;
+    margin-left: 5%;
+}
+.footer .box .box1 .icon{
+    margin-top: 8%;
+}
+.footer .box .box1 .icon a{
+    margin-left: 5%;
+    color: orange;
+}
+.footer .box .cmn-box span{
+    font-size: 14px;
+}
+.footer .box .cmn-box p{
+    color: white;
+    font-size: 13px;
+    margin-top: 10%;
+}
+.footer .box .box2 span{
+    font-size: 14px;
+}
+.footer .box .box2 p{
+   
+    margin: 3% 0;
+    color: white;
+}
+.footer .f-last .box2 i{
+    color: orange;
+    font-size: 12px;
+
+}
+.footer .box2 div p{
+    /* color: white; */
+    font-size: 13px;
+}
+
+
+.f-white{
+    background-color: white;
+    padding: 20px;
+}
+.f-white p{
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+@media (max-width:769px){
+    .bg{
+        height: 500px;
+        color: white;
+        background-size: cover;
+        background-image: url('./image/carousel-1.jpg');
+    }
+    .logo{
+        font-size: 55px;
+        color: white;
+        padding-top: 5%;
+        margin-left: 9%;
+    }
+    .bg-ul li a{
+        display: none;
+    }
+    .bg-p{
+        font-size: 18px;
+    }
+    .bg-h1{
+        font-size: 45px;
+        margin-bottom: 5%;
+    }
+    .menu{
+        display: block;
+        font-size: 30px;
+        text-align: right;
+        margin-top: -45px;
+        margin-right: 35px;
+    }
+
+
+    .white .image{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .who{
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .what .what-1{
+        width: 100%;
+    }
+   .what .what-2{
+        width: 100%;
+        margin-top: 5%;
+    }
+    .what .what-2 .box{
+        width: 49%;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .why .why-1{
+        width: 100%;
+    }
+    .why .why-2{
+        width: 100%;
+    }
+
+    .meet .meet-1{
+        width: 100%;
+    }
+    .meet .meet-2{
+        width: 100%;
+    }
+
+
+    .basic .basic-1{
+        margin: auto 5%;
+        width: 100%;
+    }
+    .basic .basic-2{
+        margin: 10% 0;
+        width: 100%;
+    }
+
+
+
+    .client .client-1{
+        width: 100%;
+        margin-top: -10%;
+    }
+    .client .client-2{
+        margin-top: 20%;
+        width: 100%;
+    }
+
+
+    .blog span{
+        margin-left: 53%;
+    }
+    .blog h2{
+        margin-left: 45%;
+    }
+    .blog-1 .box1 p{
+        font-size: 12px;
+    }
+    
+
+    .footer .box .f-last{
+        margin-left: 5%;
+     }
+    
+}
+
+
+
+@media (max-width:426px){
+    .bg{
+        color: white;
+        background-size: cover;
+        background-image: url('./image/carousel-1.jpg');
+    }
+    .logo{
+        font-size: 40px;
+        color: white;
+        padding-top: 5%;
+        margin-left: 9%;
+    }
+    .bg-ul li a{
+        display: none;
+    }
+    .bg-p{
+        font-size: 18px;
+    }
+    .bg-h1{
+        font-size: 45px;
+        margin-bottom: 5%;
+    }
+    .menu{
+        display: block;
+        font-size: 30px;
+        text-align: right;
+        margin-top: -45px;
+        margin-right: 25px;
+    }
+    .white img{
+        margin-top: 10%;
+        padding: 10px;
+        border: 1px solid rgb(217, 212, 212);
+        width: 87%;
+        height: 5;
+    }
+    .who{
+        margin-top: 8%;
+        margin-left: 7%;
+    }
+    .white-p1{
+        width: 25%;
+        font-size: 13px;
+        margin-bottom: 20px;
+        font-weight: 700px;
+        padding: 4px;
+        color: white;
+        background-color: orange;   
+    }
+    .white-ul li {
+        width: 70%;
+        display: inline-block;
+        border: 2px solid rgb(233, 228, 228);
+        padding: 25px;
+        padding-left: 5%;
+        margin-top: 5%;
+        margin-left: 7%;
+    }
+    .white-ul li div{
+        font-size: 30px;
+        width: 1%;
+        margin-bottom: -13%;
+        margin-left: 1%;
+        color: orange;
+    }
+    .white-ul li h4{
+        margin-top: 2px;
+        margin-left: 18%;
+    }
+    .white-ul li .cmn{
+        font-size: 16px;
+        margin-left: 18%;
+    }
+    .cont-ul .box{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+
+    
+    .why .why-2{
+        width: 100%;
+    }
+    .why .why-2 .box{
+        width: 100%;
+    }
+
+    .meet .meet-2{
+        width: 100%;
+    }
+    .meet .meet-2 .box{
+        width: 100%;
+        margin-left: 2%;
+    }
+    .meet-2 .box h4{
+        padding-left: 35%;
+        padding-top: 5%;
+    }
+    .meet-2 .box p{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 35%;
+        font-size: 13px;
+    }
+
+
+    .client-2 .box{
+        width: 100%
+    }
+    .client-2 .box .box1 {
+        width: 100%;
+        display: block;
+        margin-bottom: 25%;
+    }
+
+
+    .blog .blog-1 .box1{
+        width: 90%;
+        margin-top: 10%;
+    }
+    .blog h2{
+        margin-left: 40%;
+        margin-bottom: -3%;
+    }
+
+
+
+    .footer .box{
+        flex-direction: column;
+       
+    }
+    .footer .box .box1{
+       margin-left: 30%;
+    }
+    .footer .box .box1 p{
+        margin-left: 40%;
+        width: 100%;
+    }
+    .footer .box .box1 .icon{
+        margin-left: 20%;
+        margin-bottom: 10%;
+        width: 100%;
+    }
+    
+    .footer .box .f-last{
+        padding-left: 40%;
+        flex-direction: column;
+    }
+    .footer .box .f-last .cmn-box{
+        width: 100%;
+    }
+    .footer .box .f-last .box2{
+        width: 100%;
+    }
+    
+}
